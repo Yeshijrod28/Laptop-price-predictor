@@ -73,4 +73,4 @@ if st.button('Predict Price'):
 
     # Predict and show result
     predicted_price = int(np.exp(pipe.predict(query)[0]))
-    st.title(f"The predicted price of this configuration is ₹ {predicted_price}")
+    st.title(f"The predicted price of this configuration is Nu. {predicted_price}")
